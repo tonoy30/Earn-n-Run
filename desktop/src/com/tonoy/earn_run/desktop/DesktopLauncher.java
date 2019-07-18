@@ -1,8 +1,8 @@
-package com.tonoy.eat_run.desktop;
+package com.tonoy.earn_run.desktop;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-import com.tonoy.eat_run.GameMain;
+import com.tonoy.earn_run.GameMain;
 
 public class DesktopLauncher {
     public static void main(String[] arg) {

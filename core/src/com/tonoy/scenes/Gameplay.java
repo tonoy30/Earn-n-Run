@@ -24,7 +24,7 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 
 
 import com.tonoy.clouds.CloudsController;
-import com.tonoy.eat_run.GameMain;
+import com.tonoy.earn_run.GameMain;
 import com.tonoy.helpers.GameInfo;
 import com.tonoy.helpers.GameManager;
 import com.tonoy.huds.UIHud;

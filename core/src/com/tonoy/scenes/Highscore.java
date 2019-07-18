@@ -9,7 +9,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.utils.viewport.StretchViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
-import com.tonoy.eat_run.GameMain;
+import com.tonoy.earn_run.GameMain;
 import com.tonoy.helpers.GameInfo;
 import com.tonoy.huds.HighscoreButtons;
 

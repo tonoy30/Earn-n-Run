@@ -18,7 +18,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.SpriteDrawable;
 import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
-import com.tonoy.eat_run.GameMain;
+import com.tonoy.earn_run.GameMain;
 import com.tonoy.helpers.GameInfo;
 import com.tonoy.helpers.GameManager;
 import com.tonoy.scenes.MainMenu;

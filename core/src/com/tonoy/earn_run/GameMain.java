@@ -1,4 +1,4 @@
-package com.tonoy.eat_run;
+package com.tonoy.earn_run;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;

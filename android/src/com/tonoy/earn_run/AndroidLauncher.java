@@ -1,10 +1,9 @@
-package com.tonoy.eat_run;
+package com.tonoy.earn_run;
 
 import android.os.Bundle;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-import com.tonoy.eat_run.GameMain;
 
 public class AndroidLauncher extends AndroidApplication {
 	@Override
