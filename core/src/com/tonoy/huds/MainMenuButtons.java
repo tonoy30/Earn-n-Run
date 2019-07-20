@@ -97,7 +97,7 @@ public class MainMenuButtons {
             public void changed(ChangeEvent event, Actor actor) {
                 // any code that we type will be executed when we press the play button
                 GameManager.getInstance().gameStartedFromMainMenu = true;
-
+                // TODO : thread
                 RunnableAction run = new RunnableAction();
                 run.setRunnable(new Runnable() {
                     @Override
