@@ -11,7 +11,7 @@ public class DesktopLauncher {
         config.width = 480;
         config.height = 800;
         config.title = "Earn N Run";
-        config.addIcon("Icon/icon.png", Files.FileType.Internal);
+        config.addIcon("Icon/alien.png", Files.FileType.Internal);
         new LwjglApplication(new GameMain(), config);
     }
 }
