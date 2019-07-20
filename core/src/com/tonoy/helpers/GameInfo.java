@@ -1,8 +1,6 @@
 package com.tonoy.helpers;
 
-/**
- * Created by Fahir on 4/24/16.
- */
+
 public class GameInfo {
 
     public static final int WIDTH = 480;

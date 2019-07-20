@@ -252,7 +252,7 @@ public class Gameplay implements Screen, ContactListener {
             // show the end score to the user
             hud.createGameOverPanel();
 
-            // load main menu
+            // TODO : load main menu using thread
             RunnableAction run = new RunnableAction();
             run.setRunnable(new Runnable() {
                 @Override
@@ -270,7 +270,7 @@ public class Gameplay implements Screen, ContactListener {
 
         } else {
 
-            // reload the game so that the player can continue to play
+            // TODO: using thread to reload the game so that the player can continue to play
             RunnableAction run = new RunnableAction();
             run.setRunnable(new Runnable() {
                 @Override
@@ -335,6 +335,7 @@ public class Gameplay implements Screen, ContactListener {
     @Override
     public void resize(int width, int height) {
         gameViewport.update(width, height);
+        mainCamera.update();
     }
 
     @Override

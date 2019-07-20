@@ -61,7 +61,7 @@ public class MainMenuButtons {
     void createAndPositionButtons() {
 
         playBtn = new ImageButton(new SpriteDrawable(new Sprite(
-                    new Texture("Buttons/Main Menu/Start Game.png"))));
+                new Texture("Buttons/Main Menu/Start Game.png"))));
 
         highscoreBtn = new ImageButton(new SpriteDrawable(new Sprite(
                 new Texture("Buttons/Main Menu/Highscore.png"))));
@@ -132,14 +132,15 @@ public class MainMenuButtons {
         quitBtn.addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
-
+                // System.exit(0);
+                Gdx.app.exit();
             }
         });
 
         musicBtn.addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
-                if(GameManager.getInstance().gameData.isMusicOn()) {
+                if (GameManager.getInstance().gameData.isMusicOn()) {
                     GameManager.getInstance().gameData.setMusicOn(false);
                     GameManager.getInstance().stopMusic();
                 } else {
@@ -152,7 +153,7 @@ public class MainMenuButtons {
     }
 
     void checkMusic() {
-        if(GameManager.getInstance().gameData.isMusicOn()) {
+        if (GameManager.getInstance().gameData.isMusicOn()) {
             GameManager.getInstance().playMusic();
         }
     }
@@ -161,42 +162,4 @@ public class MainMenuButtons {
         return this.stage;
     }
 
-} // main menu bnts
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

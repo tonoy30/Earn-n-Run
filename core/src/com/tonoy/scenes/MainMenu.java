@@ -88,7 +88,7 @@ public class MainMenu implements Screen {
         btns.getStage().dispose();
     }
 
-} // main menu
+}
 
 
 
